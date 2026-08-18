@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:55:11.189Z",
+  "savedAt": "2026-08-18T06:57:33.636Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "01512034-e935-4348-bc84-bb34e43ad5c9",
+      "title": "NFR Epic 1: Security: The system must ensure that a student can never view another",
+      "description": "Security: The system must ensure that a student can never view another student's schedule or personal academic data. All access must be restricted to the logged-in student's own records, enforced at the API/data layer, not just hidden in the UI.",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "4547fd9a-4c2e-41c3-89bd-37164c1348b4",
+      "title": "NFR Epic 2: Auditability: Every manual prerequisite override performed by an advis",
+      "description": "Auditability: Every manual prerequisite override performed by an advisor must be logged with the advisor's identity, timestamp, the student affected, and the reason, to satisfy the IT Security Officer's audit requirement.",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "d655e325-ce20-48f3-bba1-30161224cfbf",
+      "title": "NFR Epic 3: Reliability/Data Freshness: The system must reflect live seat-availabi",
+      "description": "Reliability/Data Freshness: The system must reflect live seat-availability data from the Registrar's enrollment database, so a course displayed as available is not already full at the moment a student tries to add it (target sync delay under 1 minute).",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
