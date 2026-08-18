@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-18T07:05:17.365Z",
+  "groups": [
+    {
+      "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "f552c915-cc86-47c0-9869-94c1aa499611",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"Can I just scan the barcode with my phone camera?\" (Senior Student survey response, referring to listing textbooks).\nWhy it is vague: The note does not specify what data the barcode scan should retrieve (title, author, edition, ISBN only, or also condition/price suggestions), which barcode format to support (ISBN-13, UPC), what happens if the scan fails or the book has no barcode, or whether this applies only to textbooks or all listing categories (furniture, fridges, etc.). Without these specifics, the feature cannot be scoped for development.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
