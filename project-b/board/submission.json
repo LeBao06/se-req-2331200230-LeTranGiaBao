@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:36:16.604Z",
+  "savedAt": "2026-08-18T07:37:10.604Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "1fab34b7-1c1b-47c1-ad11-304399f50075",
+      "title": "NFR Epic 1: Security/Access Control: The system must restrict account creation to ",
+      "description": "Security/Access Control: The system must restrict account creation to users with a valid university \".edu\" email address, verified via email confirmation link, to keep the marketplace exclusive to students as required by the Student Union President.",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "402d2858-3837-4f29-a145-eff42f95c72f",
+      "title": "NFR Epic 2: Safety/Usability Constraint: The system must require every user to sel",
+      "description": "Safety/Usability Constraint: The system must require every user to select a \"Safe Exchange Zone\" from a predefined list before enabling chat between a buyer and seller, and must block chat initiation until a zone is selected, per Campus Police's safety requirement.",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "dade88b2-bf31-452e-bb94-fb3b00608f70",
+      "title": "NFR Epic 3: Compliance: The system must never store, process, or hold student paym",
+      "description": "Compliance: The system must never store, process, or hold student payment funds directly within university-owned infrastructure; all monetary transactions must be routed through a licensed third-party payment processor, in accordance with the University Legal Team's constraint that the university cannot act as a financial intermediary.",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
