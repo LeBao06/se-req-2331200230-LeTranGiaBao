@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:45:10.925Z",
+  "savedAt": "2026-08-18T07:46:41.294Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "5fcf68d0-ba5a-4ec1-83f6-25c226217b62",
+      "title": "As a Kitchen Chef, I want to mark a menu item as \"Sold Out\" instantly so it stops appear",
+      "description": "Acceptance Criteria:\n  1. Given the chef is viewing the kitchen display, when they tap \"Mark Sold Out\" on an item, then that item becomes unorderable on the student app within a few seconds.\n  2. Given an item is marked \"Sold Out\", when a student views the menu, then the item is visibly grayed out or removed and cannot be added to a new cart.\n  3. Given a student already has the sold-out item in their cart before it was marked sold out, when they try to checkout, then the app blocks checkout f",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator"
     }
   ],
   "analysis": {
