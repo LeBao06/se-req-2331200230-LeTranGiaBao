@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:33:26.620Z",
+  "savedAt": "2026-08-18T07:35:10.782Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "81bdeeaf-06e9-476f-a335-5797dc14d8d9",
+      "title": "As a Student Union Staff member, I want to view a dashboard of the platform's 2% transac",
+      "description": "Acceptance Criteria:\n  1. Given the staff member is logged in with an Administrator role, when they open the \"Revenue\" dashboard, then it displays total fee revenue collected within a selectable date range.\n  2. Given the dashboard is open, when data is displayed, then it only reflects the 2% fee amounts reported by the third-party payment processor, never raw student payment details.\n  3. Given a non-staff student attempts to access the revenue dashboard URL directly, when the request is made",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Administrator"
     }
   ],
   "analysis": {
