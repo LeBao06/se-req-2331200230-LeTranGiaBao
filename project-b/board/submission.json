@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:35:10.782Z",
+  "savedAt": "2026-08-18T07:36:16.604Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Administrator"
+    },
+    {
+      "id": "8cde1b29-4ec4-4c0d-9cd5-6dcbd78e3231",
+      "title": "As a Student, I want to sign up using only my university \".edu\" email address, so that I",
+      "description": "Acceptance Criteria:\n  1. Given a student enters an email address ending in a non-\".edu\" domain, when they submit the signup form, then registration is rejected with a clear error message.\n  2. Given a student enters a valid \".edu\" email, when they submit the signup form, then a verification link is sent to that email address.\n  3. Given the student has not clicked the verification link, when they try to log in, then access to posting or messaging features is blocked until verification is comp",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
     }
   ],
   "analysis": {
