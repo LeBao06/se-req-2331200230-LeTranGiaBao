@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:09:22.333Z",
+  "savedAt": "2026-08-18T07:10:37.540Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -26,6 +26,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "91d78fff-95be-4545-9987-4f58966856c7",
+      "title": "As a Student, I want to create an auction listing with a starting price and end time, so",
+      "description": "Acceptance Criteria:\n  1. Given the student is creating a listing, when they select \"Auction\" as the listing type, then they must enter a starting price and an auction end date/time before publishing.\n  2. Given an auction is live, when another student places a bid higher than the current highest bid, then the listing updates to show the new highest bid and bidder count.\n  3. Given a bid is placed lower than or equal to the current highest bid, when submitted, then the system rejects it and sh",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
