@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:54:05.469Z",
+  "savedAt": "2026-08-18T06:55:11.189Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator"
+    },
+    {
+      "id": "da373031-40fe-4ff1-95ca-08756b8e4b3d",
+      "title": "As a Student, I want to view only my own class schedule and roadmap, so that my academic",
+      "description": "Acceptance Criteria:\n  1. Given a student is logged in, when they open the roadmap or schedule view, then only their own courses and plans are displayed.\n  2. Given a student attempts to access another student's schedule via a direct link or ID, when the request is made, then the system denies access and shows an authorization error.\n  3. Given a student's schedule is fetched from the backend, when the API request is inspected, then it only returns data scoped to the authenticated student's ac",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
     }
   ],
   "analysis": {
