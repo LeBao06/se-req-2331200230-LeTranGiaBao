@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:07:56.976Z",
+  "savedAt": "2026-08-18T07:09:22.333Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "d522228c-2780-402d-b329-8f2ee101f9eb",
+      "title": "As a Student, I want to scan a textbook's barcode with my phone camera to auto-fill the",
+      "description": "Acceptance Criteria:\n  1. Given the student taps \"Scan Barcode\" on the listing form, when the camera detects a valid ISBN-13 or UPC barcode, then the Title, Author, and Edition fields auto-fill from a lookup service.\n  2. Given a barcode is scanned successfully, when the fields are filled, then the student can still manually edit any field before publishing the listing.\n  3. Given the camera cannot read a barcode after 10 seconds, when scanning times out, then the app shows a message allowing",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "Requirement: \"Can I just scan the barcode with my phone camera?\" (Senior Student survey response, referring to listing textbooks).\nWhy it is vague: The note does not specify what data the barcode scan should retrieve (title, author, edition, ISBN only, or also condition/price suggestions), which barcode format to support (ISBN-13, UPC), what happens if the scan fails or the book has no barcode, or whether this applies only to textbooks or all listing categories (furniture, fridges, etc.). Without these specifics, the feature cannot be scoped for development.",
     "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\" (Senior Student survey response).\nWhy it is vague: The note does not define how the auction should work -- starting price, auction duration (hours vs. days), minimum bid increment, how the winning bidder and seller are notified, or what happens if no one bids. It also does not clarify whether auctions apply to all item categories or only high-value items like furniture. Without these rules, the auction feature cannot be designed or built.",
