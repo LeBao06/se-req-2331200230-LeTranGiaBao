@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:41:24.597Z",
+  "savedAt": "2026-08-18T07:42:13.182Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -22,8 +22,8 @@
     "ambiguity1": "Requirement: \"I need to be able to mark an item as 'Sold Out' instantly.\" (Chef interview).\nWhy it is vague: The note does not specify how \"instantly\" should be measured (real-time push update vs. a few seconds delay), which devices need to see the update (student ordering app, kitchen display, or both simultaneously), whether marking an item sold out should automatically cancel or hide it from orders already in the customer's cart, or whether \"Sold Out\" can be scheduled to reset automatically the next day. Without these details, the feature's real-time behavior cannot be built or tested.",
     "ambiguity2": "Requirement: \"The kitchen display system needs to be able to work offline for at least 10 minutes without crashing if the internet cuts out. It should sync up once the connection is back.\" (IT Infrastructure Team interview).\nWhy it is vague: The note does not specify what \"work offline\" actually means in practice -- can the kitchen still view and mark existing orders as complete, or only view them read-only? It also does not define what happens to new orders placed by students during the outage (are they queued, rejected, or delayed?), nor how conflicts are resolved if two offline actions on the same order occur before syncing. Without these specifics, the offline behavior cannot be designed or tested.",
     "conflictSolution": "Conflict: The Cafeteria Manager wants the system to reduce the lunch queue by letting students order ahead on their phones, but the Marketing Dept wants to send push notifications at 11:30 AM (right at the start of lunch rush) offering a discount on the daily special. Sending a promotional push at that exact peak time would likely spike order volume further, worsening the congestion the Manager is trying to fix.\n\nProposed resolution: Shift the promotional push notification earlier, to around 10:45-11:00 AM, before the rush begins, so students are encouraged",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Reliability/Offline Availability: The kitchen display system must continue functioning (viewing and updating order status) for at least 10 minutes during an internet outage, and must automatically sync all changes with the server once connectivity is restored, per the IT Infrastructure Team's requirement.",
+    "nfr2": "Accessibility/Safety Filtering: The system must allow students to filter the entire menu by allergen (e.g., \"No Peanuts\"), and must completely hide, not just flag, any item containing the selected allergen, to protect students with allergies as required by the Student with Nut Allergy.",
+    "nfr3": "Performance: The kitchen order display must show newly placed orders within a few seconds of submission, so the kitchen staff can begin preparation promptly and reduce the lunch queue as required by the Cafeteria Manager."
   }
 }
