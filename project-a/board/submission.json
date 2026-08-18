@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:51:18.197Z",
+  "savedAt": "2026-08-18T06:52:52.677Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "01e3af4e-9ced-4467-a524-8b2a4855a110",
+      "title": "As a Student, I want to see a clear warning when a class I want to add is already full,",
+      "description": "Acceptance Criteria:\n  1. Given a course section has 0 available seats, when the student views it in the current-term registration list, then the section is visibly marked \"Full\" and the add button is disabled.\n  2. Given a section becomes full while the student has it open, when the seat count reaches zero, then the UI updates within 1 minute without requiring a manual page refresh.\n  3. Given a section is full, when the student clicks the disabled add control, then no enrollment request is s",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
