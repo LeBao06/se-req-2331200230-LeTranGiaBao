@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:44:04.493Z",
+  "savedAt": "2026-08-18T07:45:10.925Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "b645063e-fc3d-4638-81c5-8c1029accea6",
+      "title": "As a Student, I want to receive a push notification around 11:00 AM offering a discount",
+      "description": "Acceptance Criteria:\n  1. Given a student has notifications enabled, when the daily special promotion is scheduled, then they receive a push notification around 11:00 AM (before peak lunch rush) showing the discounted item and price.\n  2. Given the student taps the notification, when the app opens, then it navigates directly to the daily special item in the ordering flow.\n  3. Given a student has disabled promotional notifications in settings, when the promotion is sent, then that student does",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
