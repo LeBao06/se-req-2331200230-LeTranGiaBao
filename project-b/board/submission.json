@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:10:37.540Z",
+  "savedAt": "2026-08-18T07:33:26.620Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "0355f98c-ef17-4dd7-bf78-2c46fdb3a830",
+      "title": "As a Student, I want to be required to choose a Safe Exchange Zone before I can chat wit",
+      "description": "Acceptance Criteria:\n  1. Given a student initiates contact about a listing, when they try to open the chat window, then a prompt requires them to select a Safe Exchange Zone from a predefined list (e.g., library lobby, student union front desk) before the chat opens.\n  2. Given no Safe Exchange Zone is selected, when the student attempts to send a message, then the send action is blocked and the zone-selection prompt is shown again.\n  3. Given a zone is selected, when the chat opens, then the",
+      "groupId": "6913c3ca-9dca-4e91-b016-730c6cb9d231",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
