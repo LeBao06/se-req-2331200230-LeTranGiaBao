@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:47:27.893Z",
+  "savedAt": "2026-08-18T07:48:07.670Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "9e653986-fc7d-4588-8a60-b5e7c6abdc9a",
+      "title": "NFR Epic 1: Reliability/Offline Availability: The kitchen display system must cont",
+      "description": "Reliability/Offline Availability: The kitchen display system must continue functioning (viewing and updating order status) for at least 10 minutes during an internet outage, and must automatically sync all changes with the server once connectivity is restored, per the IT Infrastructure Team's requirement.",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "32539b6d-f7d5-4798-9d52-299bbeaaff16",
+      "title": "NFR Epic 2: Accessibility/Safety Filtering: The system must allow students to filt",
+      "description": "Accessibility/Safety Filtering: The system must allow students to filter the entire menu by allergen (e.g., \"No Peanuts\"), and must completely hide, not just flag, any item containing the selected allergen, to protect students with allergies as required by the Student with Nut Allergy.",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "514a2205-b471-42d0-919c-a063d528fc43",
+      "title": "NFR Epic 3: Performance: The kitchen order display must show newly placed orders w",
+      "description": "Performance: The kitchen order display must show newly placed orders within a few seconds of submission, so the kitchen staff can begin preparation promptly and reduce the lunch queue as required by the Cafeteria Manager.",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
