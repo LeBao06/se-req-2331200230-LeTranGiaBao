@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:46:41.294Z",
+  "savedAt": "2026-08-18T07:47:27.893Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Administrator"
+    },
+    {
+      "id": "34dbd812-1029-444d-812d-e61b43ed0426",
+      "title": "As a Student, I want the kitchen display to keep working and syncing my order even if th",
+      "description": "Acceptance Criteria:\n  1. Given the kitchen display loses internet connectivity, when the outage lasts up to 10 minutes, then the display continues showing and allowing status updates on already-received orders without crashing.\n  2. Given the connection is restored after an outage, when sync resumes, then all order status changes made offline are automatically pushed to the server without duplicating orders.\n  3. Given a student submits a new order while the kitchen is offline, when connectiv",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
     }
   ],
   "analysis": {
