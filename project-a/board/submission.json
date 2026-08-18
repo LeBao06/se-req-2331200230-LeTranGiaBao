@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:25:24.549Z",
+  "savedAt": "2026-08-18T06:27:16.525Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "Requirement: \"I want to be able to override the system manually if a student has special permission\" (Head of Advising interview).\nWhy it is vague: The note does not define what qualifies as \"special permission\" (a signed form? department chair approval? verbal request?), who is authorized to grant it, or what the approval workflow looks like. Without these details, developers cannot build the override feature or its validation rules.",
-    "ambiguity2": "",
+    "ambiguity2": "Requirement: \"The course catalog is ugly. I just want to drag and drop classes into a calendar to see if they fit\" (Freshmen focus group).\nWhy it is vague: The note describes a desired interaction (drag-and-drop) but gives no detail on what \"fit\" means technically -- does it only check time-slot overlap, or also credit-hour limits, prerequisite status, and room capacity? It also does not specify which calendar view (weekly, per-semester, 4-year) or what happens visually when a conflict occurs. Without these specifics, the feature cannot be scoped or tested.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
