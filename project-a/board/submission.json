@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:48:50.445Z",
+  "savedAt": "2026-08-18T06:51:18.197Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -26,6 +26,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "b980c8e7-6ed6-4f20-b1cc-2d4164e7f3fe",
+      "title": "As a Student, I want the roadmap builder to warn me when a class I am considering starts",
+      "description": "Acceptance Criteria:\n  1. Given a course section with a start time of 8:00 AM or earlier, when the student drags it onto the calendar, then a warning banner appears on the course card (e.g., \"Early class warning\").\n  2. Given the warning is shown, when the student hovers or taps the warning icon, then a short explanation is displayed (\"This class starts at 8:00 AM\").\n  3. Given a course starts after 8:00 AM, when it is added, then no early-class warning is shown.\n  4. Given the student dismiss",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
       "owner": "Student"
     }
   ],
