@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:43:10.285Z",
+  "savedAt": "2026-08-18T07:44:04.493Z",
   "groups": [
     {
       "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
@@ -22,6 +22,16 @@
       "id": "c739f8bf-a53a-47bc-8864-090580c04734",
       "title": "As a Student, I want to order food from my phone while walking to the cafeteria, so that",
       "description": "Acceptance Criteria:\n  1. Given the student opens the ordering app, when they browse the menu and add items to their cart, then they can submit the order and pay before physically arriving at the cafeteria.\n  2. Given an order is submitted, when the kitchen receives it, then the student sees an estimated pickup time based on current kitchen queue load.\n  3. Given the student is still walking (order placed remotely), when the order status changes (e.g., \"Preparing\", \"Ready for Pickup\"), then th",
+      "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "0437aa8a-46ab-49b8-94d8-7b7dd951d108",
+      "title": "As a Student with a food allergy, I want to filter the menu to hide all items containing",
+      "description": "Acceptance Criteria:\n  1. Given the student opens the allergen filter menu, when they check \"No Peanuts\" (or another allergen), then every item containing that allergen is completely removed from the menu view, not just marked or grayed out.\n  2. Given multiple allergens are selected, when the filter is applied, then items containing ANY of the selected allergens are hidden.\n  3. Given a filter is active, when the student refreshes the app or reopens it later in the same session, then the prev",
       "groupId": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
       "status": "todo",
       "type": "User Story",
