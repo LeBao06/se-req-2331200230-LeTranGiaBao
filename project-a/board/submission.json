@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-18T06:25:24.549Z",
+  "groups": [
+    {
+      "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "eacadf40-4676-49cf-8f2d-fb3201f3de3d",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"I want to be able to override the system manually if a student has special permission\" (Head of Advising interview).\nWhy it is vague: The note does not define what qualifies as \"special permission\" (a signed form? department chair approval? verbal request?), who is authorized to grant it, or what the approval workflow looks like. Without these details, developers cannot build the override feature or its validation rules.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
