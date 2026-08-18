@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-18T07:39:34.245Z",
+  "groups": [
+    {
+      "id": "58423e83-4692-4d75-9a5c-52ea5860aaeb",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "a6a0b63a-c5a7-4db4-8b6d-ae804cdd9697",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "f3e5569f-ef9a-4073-8d69-4ae2a256976a",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: \"I need to be able to mark an item as 'Sold Out' instantly.\" (Chef interview).\nWhy it is vague: The note does not specify how \"instantly\" should be measured (real-time push update vs. a few seconds delay), which devices need to see the update (student ordering app, kitchen display, or both simultaneously), whether marking an item sold out should automatically cancel or hide it from orders already in the customer's cart, or whether \"Sold Out\" can be scheduled to reset automatically the next day. Without these details, the feature's real-time behavior cannot be built or tested.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
