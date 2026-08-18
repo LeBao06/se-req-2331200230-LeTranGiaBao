@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:52:52.677Z",
+  "savedAt": "2026-08-18T06:54:05.469Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "7ba5faf4-a675-40db-a91f-bce9b4e0584e",
+      "title": "As an Advising Staff member, I want to manually override a blocked prerequisite for a sp",
+      "description": "Acceptance Criteria:\n  1. Given a student is blocked from adding a course due to an unmet prerequisite, when an advisor with override permission opens that student's roadmap, then an \"Override\" action is available on the blocked course.\n  2. Given the advisor clicks \"Override\", when they submit a reason (free text, required field), then the course becomes addable for that student only.\n  3. Given an override is submitted, when it is saved, then the system logs the advisor's identity, timestamp",
+      "groupId": "f23558a4-6c00-4163-b9e0-ba5e4ea70d39",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator"
     }
   ],
   "analysis": {
