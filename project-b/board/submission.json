@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T07:07:07.301Z",
+  "savedAt": "2026-08-18T07:07:56.976Z",
   "groups": [
     {
       "id": "b5b98cce-93eb-4e1f-8ba2-62ef03882a9c",
@@ -22,8 +22,8 @@
     "ambiguity1": "Requirement: \"Can I just scan the barcode with my phone camera?\" (Senior Student survey response, referring to listing textbooks).\nWhy it is vague: The note does not specify what data the barcode scan should retrieve (title, author, edition, ISBN only, or also condition/price suggestions), which barcode format to support (ISBN-13, UPC), what happens if the scan fails or the book has no barcode, or whether this applies only to textbooks or all listing categories (furniture, fridges, etc.). Without these specifics, the feature cannot be scoped for development.",
     "ambiguity2": "Requirement: \"I want to be able to auction items, not just set a fixed price.\" (Senior Student survey response).\nWhy it is vague: The note does not define how the auction should work -- starting price, auction duration (hours vs. days), minimum bid increment, how the winning bidder and seller are notified, or what happens if no one bids. It also does not clarify whether auctions apply to all item categories or only high-value items like furniture. Without these rules, the auction feature cannot be designed or built.",
     "conflictSolution": "Conflict: The University Legal Team states the app cannot process any payments (the university is not a bank; students must pay each other via Venmo or cash), while the Student Union President wants the app to take a 2% transaction fee to fund club activities.\n\nProposed resolution: The app itself never touches or holds student funds directly, satisfying the Legal Team's requirement. Instead, integrate a third-party licensed payment processor (e.g., Stripe Connect) that handles the money transfer between buyer and seller off the university's own systems, and automatically deducts a 2% platform fee during that transfer, routing it to the Student Union's account. This way the university's app only facilitates the connection and fee collection through a compliant external processor, never becoming a financial custodian itself, while still allowing the Student Union to fund club activities from the 2% fee.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security/Access Control: The system must restrict account creation to users with a valid university \".edu\" email address, verified via email confirmation link, to keep the marketplace exclusive to students as required by the Student Union President.",
+    "nfr2": "Safety/Usability Constraint: The system must require every user to select a \"Safe Exchange Zone\" from a predefined list before enabling chat between a buyer and seller, and must block chat initiation until a zone is selected, per Campus Police's safety requirement.",
+    "nfr3": "Compliance: The system must never store, process, or hold student payment funds directly within university-owned infrastructure; all monetary transactions must be routed through a licensed third-party payment processor, in accordance with the University Legal Team's constraint that the university cannot act as a financial intermediary."
   }
 }
