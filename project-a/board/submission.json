@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-18T06:29:04.892Z",
+  "savedAt": "2026-08-18T06:30:08.836Z",
   "groups": [
     {
       "id": "33626a42-b63f-45a7-b1fa-4e761830934a",
@@ -22,8 +22,8 @@
     "ambiguity1": "Requirement: \"I want to be able to override the system manually if a student has special permission\" (Head of Advising interview).\nWhy it is vague: The note does not define what qualifies as \"special permission\" (a signed form? department chair approval? verbal request?), who is authorized to grant it, or what the approval workflow looks like. Without these details, developers cannot build the override feature or its validation rules.",
     "ambiguity2": "Requirement: \"The course catalog is ugly. I just want to drag and drop classes into a calendar to see if they fit\" (Freshmen focus group).\nWhy it is vague: The note describes a desired interaction (drag-and-drop) but gives no detail on what \"fit\" means technically -- does it only check time-slot overlap, or also credit-hour limits, prerequisite status, and room capacity? It also does not specify which calendar view (weekly, per-semester, 4-year) or what happens visually when a conflict occurs. Without these specifics, the feature cannot be scoped or tested.",
     "conflictSolution": "Conflict: The Registrar requires the roadmap tool to check the live database and block adding a class once it is full, while the Head of Advising wants students to plan their full 4-year roadmap even before seat availability for future terms is known.\n\nProposed resolution: Separate the \"planning\" and \"enrollment\" stages. Allow students to add any course to their long-term 4-year roadmap regardless of current seat availability, since this is a draft plan, not a registration. Only when a student moves a course into the current/upcoming registration term does the system perform a live seat-availability check against the Registrar's database and block the add if the class is full. This satisfies the Advising Head's need for long-term planning while preserving the Registrar's requirement that no student can register for a genuinely full class.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security: The system must ensure that a student can never view another student's schedule or personal academic data. All access must be restricted to the logged-in student's own records, enforced at the API/data layer, not just hidden in the UI.",
+    "nfr2": "Auditability: Every manual prerequisite override performed by an advisor must be logged with the advisor's identity, timestamp, the student affected, and the reason, to satisfy the IT Security Officer's audit requirement.",
+    "nfr3": "Reliability/Data Freshness: The system must reflect live seat-availability data from the Registrar's enrollment database, so a course displayed as available is not already full at the moment a student tries to add it (target sync delay under 1 minute)."
   }
 }
